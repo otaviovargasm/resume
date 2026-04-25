@@ -64,13 +64,12 @@ experiences:
         time: Oct 2024 - Present
         company: SAP, São Leopoldo, RS (Hybrid)
         details: |
-          - Design and delivery of cloud-native features and distributed systems at enterprise scale, driving end-to-end ownership of complex technical initiatives.
-          - Kafka integrations, authentication and authorization controls, zero-downtime Kubernetes deployments, and REST API latency optimization at SAP scale.
+          - Kafka integrations, Kubernetes deployments, and REST API latency optimization at SAP scale.
           - Observability and monitoring using Dynatrace, Grafana, and Sumo Logic for performance tracking and incident response.
           - Active member of Quality Assurance and AI Working Groups, driving innovation and engineering best practices.
           - Lead development of an internal collaborative CLI tool at SAP, featuring AI agents for development workflows and ticket analysis, connected to MCP servers, integrating Claude (Anthropic), Cline, and GitHub Copilot to boost team productivity.
           - Work in cross-functional Scrum teams with Continuous Delivery practices, authoring unit, integration, and performance tests.
-          - **Champion of SAP InnoWeeks 2025**, winning 4 prizes including Best AI Implementation and Overall Winner.
+          - Champion of SAP InnoWeeks 2025, winning 4 prizes including Best AI Implementation and Overall Winner.
       - role: Back-end Developer
         time: Oct 2021 - Oct 2024
         company: Verzel Soluções em Sistemas, Remote

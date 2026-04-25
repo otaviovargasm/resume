@@ -9,19 +9,22 @@ function parseBold(text) {
 function parseDetails(text) {
     if (!text) return [];
     var lines = text.trim().split('\n');
-    var bullets = [];
+    var rows = [];
     lines.forEach(function(line) {
         line = line.trim();
         if (!line) return;
         var content = line.startsWith('- ') ? line.substring(2) : line;
-        bullets.push({ text: parseBold(content), fontSize: 9, color: '#000000', lineHeight: 1.35 });
+        rows.push([
+            { text: '•', fontSize: 9, color: '#000000', margin: [0, 1, 4, 1] },
+            { text: parseBold(content), fontSize: 9, color: '#000000', lineHeight: 1.35, margin: [0, 1, 0, 1] }
+        ]);
     });
-    if (!bullets.length) return [];
+    if (!rows.length) return [];
+    // bullet col: 12pt, text col: 488pt, left margin: 4pt → total: 504pt = content width
     return [{
-        ul: bullets,
-        margin: [4, 2, 0, 2],
-        fontSize: 9,
-        color: '#000000'
+        table: { widths: [12, 488], body: rows },
+        layout: 'noBorders',
+        margin: [4, 0, 0, 2]
     }];
 }
 

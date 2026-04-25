@@ -12,7 +12,7 @@ sidebar:
     linkedin: otaviovargas
     github: otaviovargasm
     stack-overflow: 11667417/otávio-vargas
-    pdf: /resume/assets/pdfs/otavio-curriculo.pdf
+    pdf: /otaviovargasm/assets/pdfs/otavio-curriculo.pdf
 
     languages:
       title: Idiomas
@@ -65,13 +65,12 @@ experiences:
         time: Out 2024 - Atualmente
         company: SAP, São Leopoldo, RS (Híbrido)
         details: |
-          - Design e entrega de soluções cloud-native e sistemas distribuídos em escala empresarial, com ownership end-to-end de iniciativas técnicas complexas.
-          - Integrações Kafka, controles de autenticação e autorização, deploys Kubernetes zero-downtime e otimização de latência em APIs REST em escala SAP.
+          - Integrações Kafka, deploys Kubernetes e otimização de latência em APIs REST em escala SAP.
           - Observabilidade e monitoramento com Dynatrace, Grafana e Sumo Logic para acompanhamento de performance e resposta a incidentes.
           - Membro ativo dos grupos de trabalho de Qualidade e IA, promovendo inovação e melhores práticas de engenharia.
           - Liderança no desenvolvimento de uma CLI colaborativa interna na SAP, com agentes de IA para fluxos de desenvolvimento e análise de tickets, conectados a servidores MCP, integrando Claude (Anthropic), Cline e GitHub Copilot para aumentar a produtividade do time.
           - Atuação em equipes Scrum multidisciplinares com práticas de Continuous Delivery, elaboração de testes unitários, de integração e performance.
-          - **Campeão do SAP InnoWeeks 2025**, conquistando 4 prêmios incluindo Melhor Implementação de IA e Campeão Geral.
+          - Campeão do SAP InnoWeeks 2025, conquistando 4 prêmios incluindo Melhor Implementação de IA e Campeão Geral.
       - role: Desenvolvedor Back-end
         time: Out 2021 - Out 2024
         company: Verzel Soluções em Sistemas, Remoto

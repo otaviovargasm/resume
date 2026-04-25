@@ -12,9 +12,9 @@
 
 ---
 
-Software Engineer with **14+ years of IT experience**, specializing in back-end development, cloud, and DevOps. Currently at **SAP** in São Leopoldo, Brazil — building high-performance Java applications with Kafka integration, Kubernetes deployments, and REST API optimization at enterprise scale.
+Software Engineer with **14+ years of IT experience**, specializing in back-end development, cloud, and DevOps. Currently at **SAP** in São Leopoldo, Brazil, building high-performance Java applications with Kafka integration, Kubernetes deployments, and REST API optimization at enterprise scale.
 
-**Champion of SAP InnoWeeks 2025** — won 4 prizes including Best AI Implementation and Overall Winner with a cross-functional team.
+**Champion of SAP InnoWeeks 2025**, winning 4 prizes including Best AI Implementation and Overall Winner with a cross-functional team.
 
 ---
 
@@ -34,16 +34,12 @@ Software Engineer with **14+ years of IT experience**, specializing in back-end 
 
 ---
 
-### GitHub Stats
+## Running Locally
 
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=otaviovargasm&show_icons=true&hide_border=true&theme=default&hide=stars)
-&nbsp;
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=otaviovargasm&layout=compact&hide_border=true&theme=default)
-
-</div>
-
+```bash
+docker-compose up
+# Open http://localhost:4000/otaviovargasm/
+```
 
 ---
 
