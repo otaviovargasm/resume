@@ -3,7 +3,7 @@ sidebar:
     about: True
     education: True
 
-    name: Otávio Vargas
+    name: Otavio Vargas
     tagline: Engenheiro de Software | Java · Cloud · SAP · Kubernetes
 
     avatar: profile.jpg
@@ -43,7 +43,7 @@ career-profile:
       ágeis.
 
       Em busca de oportunidades como Engenheiro de Software Sênior para aplicar
-      minha expertise em soluções cloud-native e back-end de alta escalabilidade.
+      minha expertise em soluções cloud-native e back-end.
 
 education:
     title: Formação Acadêmica

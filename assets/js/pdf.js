@@ -71,12 +71,15 @@ function generatePDF(filename) {
 
     // About / Summary
     content = content.concat(sectionHeader(d['career-profile'].title || 'Summary'));
-    content.push({
-        text: d['career-profile'].summary.trim(),
-        fontSize: 9,
-        color: '#000000',
-        lineHeight: 1.4,
-        margin: [0, 0, 0, 2]
+    var summaryParas = d['career-profile'].summary.trim().split(/\n\s*\n/);
+    summaryParas.forEach(function(para, i) {
+        content.push({
+            text: para.trim().replace(/\n/g, ' '),
+            fontSize: 9,
+            color: '#000000',
+            lineHeight: 1.4,
+            margin: [0, 0, 0, i < summaryParas.length - 1 ? 5 : 2]
+        });
     });
 
     // Experience
@@ -115,7 +118,7 @@ function generatePDF(filename) {
     content = content.concat(sectionHeader(d.projects.title || 'Highlights & Projects'));
     d.projects.assignments.forEach(function(proj) {
         content.push({ text: proj.title, fontSize: 10, bold: true, color: '#000000', margin: [0, 4, 0, 1] });
-        content.push({ text: (proj.tagline || '').trim(), fontSize: 9, color: '#000000', lineHeight: 1.35, margin: [0, 0, 0, 4] });
+        content.push({ text: (proj.tagline || '').trim().replace(/\n/g, ' '), fontSize: 9, color: '#000000', lineHeight: 1.35, margin: [0, 0, 0, 4] });
     });
 
     // Languages
