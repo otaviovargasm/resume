@@ -44,14 +44,6 @@ Software Engineer with **14+ years of IT experience**, specializing in back-end 
 
 </div>
 
----
-
-## Running Locally
-
-```bash
-docker-compose up
-# Open http://localhost:4000/otaviovargasm/
-```
 
 ---
 
