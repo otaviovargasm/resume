@@ -12,7 +12,7 @@ sidebar:
     linkedin: otaviovargas
     github: otaviovargasm
     stack-overflow: 11667417/otávio-vargas
-    pdf: /resume/assets/pdfs/otavio-resume.pdf
+    pdf: /otaviovargasm/assets/pdfs/otavio-resume.pdf
 
     languages:
       title: Languages
@@ -27,11 +27,12 @@ career-profile:
     title: About Me
     summary: |
       Software Engineer with 14+ years of IT experience, specializing in
-      Back-end Development, Cloud, and DevOps. Currently at SAP in São Leopoldo,
-      Brazil, building high-performance Java applications with Kafka integration,
-      Kubernetes deployments, and REST API optimization at enterprise scale.
+      Back-end Development, Distributed Systems, and Cloud-Native DevOps. Currently
+      at SAP in São Leopoldo, Brazil, building high-performance Java applications
+      with Kafka integration, Kubernetes deployments, REST API latency optimization,
+      and AI/LLM agent tooling at enterprise scale.
 
-      Champion of SAP InnoWeeks 2025 — won 4 awards (Best Design, Best AI
+      Champion of SAP InnoWeeks 2025, winning 4 awards (Best Design, Best AI
       Implementation, Best Project Strategy, and Overall Winner) with a
       cross-functional team.
 
@@ -61,26 +62,26 @@ experiences:
     info:
       - role: Software Engineer
         time: Oct 2024 - Present
-        company: SAP, São Leopoldo, RS — Hybrid
+        company: SAP, São Leopoldo, RS (Hybrid)
         details: |
-          - Java development of new solutions and architectures, solving complex tickets and driving feature delivery across enterprise-scale systems.
-          - Kafka integrations, access and permission control, Kubernetes deployments, and REST API performance optimization at SAP scale.
+          - Design and delivery of cloud-native features and distributed systems at enterprise scale, driving end-to-end ownership of complex technical initiatives.
+          - Kafka integrations, authentication and authorization controls, zero-downtime Kubernetes deployments, and REST API latency optimization at SAP scale.
           - Observability and monitoring using Dynatrace, Grafana, and Sumo Logic for performance tracking and incident response.
           - Active member of Quality Assurance and AI Working Groups, driving innovation and engineering best practices.
-          - Lead development of an internal collaborative CLI tool that improves developer day-to-day by grouping tools, creating automated workflows, and maintaining a living project documentation from the developer's perspective — continuously enhanced with AI.
-          - Work in Scrum teams, authoring unit, integration, and performance tests.
-          - **Champion of SAP InnoWeeks 2025** — won 4 prizes including Best AI Implementation and Overall Winner.
+          - Lead development of an internal collaborative CLI tool at SAP, featuring AI agents for development workflows and ticket analysis, connected to MCP servers, integrating Claude (Anthropic), Cline, and GitHub Copilot to boost team productivity.
+          - Work in cross-functional Scrum teams with Continuous Delivery practices, authoring unit, integration, and performance tests.
+          - **Champion of SAP InnoWeeks 2025**, winning 4 prizes including Best AI Implementation and Overall Winner.
       - role: Back-end Developer
         time: Oct 2021 - Oct 2024
         company: Verzel Soluções em Sistemas, Remote
         details: |
-          - Developed and maintained Java applications using Spring Boot for REST APIs and scalable microservices, applying SOLID principles and design patterns.
+          - Designed and maintained scalable, resilient Java microservices using Spring Boot, applying SOLID principles, design patterns, and clean code practices.
           - Implemented unit and integration tests; contributed to application monitoring and observability (Zipkin).
           - Worked with Apache Kafka, Kafka Streams, KSQL, and Kafka Connect for real-time processing and data synchronization.
           - Experience with relational databases (PostgreSQL, Oracle, MySQL, SQL Server) and NoSQL (MongoDB).
           - Participated in Node.js projects using Express.js and Nest.js.
           - Collaborated in agile teams (Scrum, Kanban).
-          - Extensive AWS experience (Lambda, S3, EKS, ECS, ECK, SQS, Cognito, Secrets Manager, CloudWatch, LightSail), CI/CD (Terraform, CloudFormation, GitHub Actions, Docker, Kubernetes), and Azure DevOps.
+          - Extensive AWS experience (EC2, Lambda, S3, EKS, ECS, SQS, Cognito, Secrets Manager, CloudWatch), CI/CD pipelines (Terraform, CloudFormation, GitHub Actions, Docker, Kubernetes), and Azure DevOps.
       - role: SysAdmin
         time: Aug 2018 - Aug 2021
         company: Marinha do Brasil (Brazil's Navy), Florianópolis, SC
@@ -107,7 +108,7 @@ projects:
     title: Highlights & Projects
     intro: ""
     assignments:
-      - title: SAP InnoWeeks 2025 — Overall Champion 🏆
+      - title: SAP InnoWeeks 2025 (Overall Champion)
         link: "#"
         tagline: >
           5-week cross-functional hackathon at SAP Labs Latin America. Partnered with
@@ -120,14 +121,7 @@ projects:
           Led the development of an internal collaborative CLI tool at SAP designed
           to improve developer day-to-day by grouping tools, creating automated
           workflows, and maintaining a living project documentation from the
-          developer's perspective — continuously enhanced with AI.
-
-      - title: Real-Time Data Pipeline (SAP)
-        link: "#"
-        tagline: >
-          Designed and implemented Kafka-based database-to-database data transfer
-          pipelines using Java and Spring Boot, with full Kubernetes deployment
-          and REST API performance optimization.
+          developer's perspective, continuously enhanced with AI.
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="https://github.com/sharu725" target="_blank" rel="nofollow">Sharath Kumar</a>

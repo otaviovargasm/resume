@@ -1,49 +1,69 @@
-@media print
-   {
+@media print {
     @page {
         size: A4;
-    }
-    body {
-       font-size: 12t;
+        margin: 0;
     }
 
-    img.avatar {
+    * {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+
+    body {
+        font-size: 11pt;
+    }
+
+    // Hide UI elements not needed in PDF
+    .language-sw,
+    .remove-container,
+    footer,
+    .pdf,
+    .website:last-of-type {
+        display: none !important;
+    }
+
+    img.profile-image {
         width: 100px;
         filter: grayscale(1);
-        -webkit-filter: greyscale(1);
+        -webkit-filter: grayscale(1);
     }
-   .main-wrapper .time {
-       float: right;
-        color: black !important;
-        -webkit-print-color-adjust: exact; 
-   }
+
     .sidebar-wrapper {
         position: static;
         float: right;
-        width: 40%;
-        -webkit-print-color-adjust: exact; 
+        width: 38%;
     }
 
-    .language-sw{
-      display: none;
-    }
-    .remove-container.container-block {
-       display: none;
+    .main-wrapper {
+        float: left;
+        width: 60%;
     }
 
-    footer {
-       display: none;
+    .main-wrapper .time {
+        float: right;
+        color: black !important;
     }
 
     .skillset .level-bar-inner {
-       background-color: black !important;
-       -webkit-print-color-adjust: exact; 
+        background-color: #333 !important;
     }
 
-   .fa-inverse,
-   .fa-inverse:after,
-   .fa-inverse:before {
-     color: #ffffff !important;
-   }
+    .fa-inverse,
+    .fa-inverse:after,
+    .fa-inverse:before {
+        color: #ffffff !important;
+    }
 
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .wrapper {
+        page-break-inside: avoid;
+    }
+
+    .section {
+        page-break-inside: avoid;
+    }
 }

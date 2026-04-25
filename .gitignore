@@ -3,3 +3,6 @@ _site/
 .sass-cache/
 .jekyll-metadata
 .jekyll-cache
+
+# Generated PDFs
+assets/pdfs/*.pdf

@@ -27,12 +27,12 @@ career-profile:
     title: Sobre mim
     summary: |
       Engenheiro de Software com mais de 14 anos de experiência em TI,
-      especializado em Desenvolvimento Back-end, Cloud e DevOps. Atualmente na
-      SAP em São Leopoldo, RS, desenvolvendo aplicações Java de alto desempenho
-      com integração Kafka, deploys Kubernetes e otimização de APIs REST em
-      escala empresarial.
+      especializado em Desenvolvimento Back-end, Sistemas Distribuídos e DevOps
+      Cloud-Native. Atualmente na SAP em São Leopoldo, RS, desenvolvendo aplicações
+      Java de alto desempenho com integração Kafka, deploys Kubernetes, otimização
+      de latência em APIs REST e agentes de IA/LLM em escala empresarial.
 
-      Campeão do SAP InnoWeeks 2025 — conquistei 4 prêmios (Melhor Design,
+      Campeão do SAP InnoWeeks 2025, conquistando 4 prêmios (Melhor Design,
       Melhor Implementação de IA, Melhor Estratégia de Projeto e Campeão Geral)
       com uma equipe multidisciplinar.
 
@@ -63,26 +63,26 @@ experiences:
     info:
       - role: Engenheiro de Software
         time: Out 2024 - Atualmente
-        company: SAP, São Leopoldo, RS — Híbrido
+        company: SAP, São Leopoldo, RS (Híbrido)
         details: |
-          - Desenvolvimento Java de novas soluções e arquiteturas, resolução de tickets complexos e entrega de funcionalidades em sistemas de escala empresarial.
-          - Integrações Kafka, controle de acesso e permissões, deploys Kubernetes e otimização de performance de APIs REST em escala SAP.
+          - Design e entrega de soluções cloud-native e sistemas distribuídos em escala empresarial, com ownership end-to-end de iniciativas técnicas complexas.
+          - Integrações Kafka, controles de autenticação e autorização, deploys Kubernetes zero-downtime e otimização de latência em APIs REST em escala SAP.
           - Observabilidade e monitoramento com Dynatrace, Grafana e Sumo Logic para acompanhamento de performance e resposta a incidentes.
           - Membro ativo dos grupos de trabalho de Qualidade e IA, promovendo inovação e melhores práticas de engenharia.
-          - Liderança no desenvolvimento de uma CLI colaborativa interna que melhora o dia a dia do desenvolvedor, agrupando ferramentas, criando fluxos de trabalho automatizados e mantendo uma documentação viva do projeto na visão do desenvolvedor — continuamente aprimorada com IA.
-          - Atuação em equipes Scrum, elaboração de testes unitários, de integração e performance.
-          - **Campeão do SAP InnoWeeks 2025** — 4 prêmios incluindo Melhor Implementação de IA e Campeão Geral.
+          - Liderança no desenvolvimento de uma CLI colaborativa interna na SAP, com agentes de IA para fluxos de desenvolvimento e análise de tickets, conectados a servidores MCP, integrando Claude (Anthropic), Cline e GitHub Copilot para aumentar a produtividade do time.
+          - Atuação em equipes Scrum multidisciplinares com práticas de Continuous Delivery, elaboração de testes unitários, de integração e performance.
+          - **Campeão do SAP InnoWeeks 2025**, conquistando 4 prêmios incluindo Melhor Implementação de IA e Campeão Geral.
       - role: Desenvolvedor Back-end
         time: Out 2021 - Out 2024
         company: Verzel Soluções em Sistemas, Remoto
         details: |
-          - Desenvolvimento e manutenção de aplicações Java com Spring Boot para APIs REST e microsserviços escaláveis, aplicando princípios SOLID e Design Patterns.
+          - Design e manutenção de microsserviços Java escaláveis e resilientes com Spring Boot, aplicando princípios SOLID, Design Patterns e práticas de clean code.
           - Implementação de testes unitários e de integração; contribuição para monitoramento e observabilidade (Zipkin).
           - Trabalho com Apache Kafka, Kafka Streams, KSQL e Kafka Connect para processamento em tempo real e sincronização de dados.
           - Experiência com bancos relacionais (PostgreSQL, Oracle, MySQL, SQL Server) e NoSQL (MongoDB).
           - Participação em projetos Node.js com Express.js e Nest.js.
           - Colaboração em equipes ágeis (Scrum, Kanban).
-          - Ampla experiência com AWS (Lambda, S3, EKS, ECS, ECK, SQS, Cognito, Secrets Manager, CloudWatch, LightSail), CI/CD (Terraform, CloudFormation, GitHub Actions, Docker, Kubernetes) e Azure DevOps.
+          - Ampla experiência com AWS (EC2, Lambda, S3, EKS, ECS, SQS, Cognito, Secrets Manager, CloudWatch), pipelines de CI/CD (Terraform, CloudFormation, GitHub Actions, Docker, Kubernetes) e Azure DevOps.
       - role: SysAdmin
         time: Ago 2018 - Ago 2021
         company: Marinha do Brasil, Florianópolis, SC
@@ -109,7 +109,7 @@ projects:
     title: Destaques & Projetos
     intro: ""
     assignments:
-      - title: Campeão SAP InnoWeeks 2025 🏆
+      - title: Campeão SAP InnoWeeks 2025
         link: "#"
         tagline: >
           Hackathon multidisciplinar de 5 semanas no SAP Labs Latin America.
@@ -123,7 +123,7 @@ projects:
           Liderança no desenvolvimento de uma CLI colaborativa interna na SAP
           para melhorar o dia a dia do desenvolvedor, agrupando ferramentas,
           criando fluxos de trabalho automatizados e mantendo uma documentação
-          viva do projeto na visão do desenvolvedor — continuamente aprimorada com IA.
+          viva do projeto na visão do desenvolvedor, continuamente aprimorada com IA.
 
 footer: >
   Desenvolvido com <i class="fas fa-heart"></i> por <a href="https://github.com/sharu725" target="_blank" rel="nofollow">Sharath Kumar</a>
